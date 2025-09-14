@@ -1,1 +1,13 @@
-// React 1st module last class
+const person = {
+    name:'hero alom',
+    age: 10,
+    friends: ['korim'],
+    salary: 100,
+    10: "secret code"
+}
+
+const heroName = person["name"];
+console.log(heroName);
+
+const heroSecret = person[10]
+console.log(heroSecret);
